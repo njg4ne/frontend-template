@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: light) {
+  #root {
+    background-color: var(--color-scale-gray-1);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #root {
+    background-color: var(--color-canvas-default);
+  }
+  #content {
+    background-color: var(--color-canvas-subtle);
+  }
+  * {
+    color: white;
+  }
+}
